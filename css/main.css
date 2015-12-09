@@ -144,6 +144,31 @@ header {
     background-color:#666666;
 }
 
+.chef{
+    padding:1em;
+}
+
+.chef img{
+    display:inline;
+    max-height:350px;
+    width: auto;
+    margin:auto;
+    padding:1em;
+}
+
+@media all and (max-width: 650px){
+    .chef img {
+        width: calc(100%);
+    }
+}
+
+@media all and (max-width: 651px, max-height:500px;){
+    .chef img {
+        width: calc(100%);
+        margin:auto;
+    }
+}
+
 /* Button */
 
 .sample button {

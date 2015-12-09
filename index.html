@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="css/flexnav.css" rel="stylesheet" type="text/css" / >
 </head>
 <body class="site">
 	<div id="wrapper"class="site-container">
@@ -19,6 +20,20 @@
 					<img src="http://www.jenniferlinford.com/images/HARRYHAUSENStextOnly.png" alt="Harryhausen's Logo">
 					</a>
 				</div>
+
+				<div id="main-nav">
+					<div class="menu-button one-page">Menu</div>
+					<nav>
+          <ul data-breakpoint="800" class="flexnav one-page">
+            <li><a href="#page">Item 1</a></li>
+            <li><a href="#section2">Item 2</a></li>
+            <li><a href="#section3">Item 3</a></li>
+            <li><a href="#section4">Item 4</a></li>
+            <li><a href="#section5">Item 5</a></li>
+          </ul>
+        </nav>
+				</div>
+
 			</header>
 		</div>	
 
@@ -29,17 +44,22 @@
 		<main class="site-content">
 			<h1>Welcome to Harryhausen's! </h1>
 				<div class="content">
-					<h2>Downtown Monstropolis' Favorite Spot for sushi, sake and snugglybears.</h2>	
-					<p>Harryhausen's is Monstropolis' best restaurant for date night or any night, really. Reservations are highly recommended, in fact, you won't get in without one.  Our chefs are dedicated to quality work hard to bring you the best. </p>
-						<div class="image_links"><img src="images/octopus-chef.jpeg"/><br/>
-							<p><a href="#home">This is an example of a text link.</a></p>
+					<h2>Downtown Monstropolis' Favorite Spot for sushi, sake and surprises.</h2>
+					<div class="chef"><img src="images/octopus-chef.jpeg"/><br/>
+							<p><a href="#home">Meet Our Chef</a></p>
+					</div>	
+					<div class="about">
+						<p>Harryhausen's is Monstropolis' best restaurant for date night or any night, really. Reservations are highly recommended, in fact, you won't get in without one.  Our chefs are dedicated to quality work hard to bring you the best Japanese inspired dishes. Come taste our world class cuisine. You might even spot a child or two while your here. </p></br></br>
 					</div>
-					<div class="sample">
+
+					<!--<div class="sample">
 						<button>This is a Button</button>
-					</div>						 
+					</div>	-->					 
 				</div>
 
 			<div class="food">
+			
+				
 				<h1>Our Menu</h1>
 				<div id="app" class="menu_list">
 					<h2>Appetizers</h2>
@@ -155,9 +175,12 @@
 				
 								
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
-	<script src="js/drawer.js"></script>
+	<script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
     <script src="js/main.js"></script>
+
+
+
+
 </main>
 </body>
 </html>
