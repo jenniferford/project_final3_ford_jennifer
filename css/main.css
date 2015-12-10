@@ -62,7 +62,7 @@ div {
 h1{
 	color:#8b1d0e;
 	margin: .75em;
-    font-size:350%;
+    font-size:300%;
 }
 
 h2 {
@@ -216,7 +216,7 @@ header {
     display: inline-block;
     line-height: 155%;
     vertical-align: text-top;
-    width:48%;
+    max-width:500px;
 }
 
 .special-items img {
