@@ -210,12 +210,21 @@ header {
 	padding:1em;
 }
 
-.image_links img{
-	display:inline;
-	max-height:350px;
-	width: auto;
-	margin:auto;
-	padding:1em;
+.special-items {
+    padding:1em 1.5em;
+    line-height:90%;
+    display: inline-block;
+    line-height: 155%;
+    vertical-align: text-top;
+    width:48%;
+}
+
+.special-items img {
+    width:100%;
+}
+
+.special-items h3 {
+    color:#b24c1e;
 }
 
 @media all and (max-width: 650px){
