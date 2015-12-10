@@ -160,13 +160,11 @@ header {
     background-color:#666666;
 }
 
-.chef{
-    padding:1em;
-}
+
 
 .chef img{
     display:inline;
-    max-height:350px;
+    max-height:250px;
     width: auto;
     margin:auto;
     padding:1em;
@@ -290,4 +288,56 @@ img {
     { position: relative; 
        color:#ffffff;
     }
+
+
+.about {
+    height:auto;
+    background-color:#8b1d0e;
+    padding-bottom: 2em;
+}
+.about p{
+    color:#ffffff;
+    font-size:90%;
+    text-align:center;
+}
+
+.about h2{
+    color:#b24c1e;
+    text-align:center;
+    line-height: 100%;
+}
+
+.section-1 {
+  float: left;
+  margin: 0 1.5%;
+  width: 48%;
+  height:auto;
+}
+
+.section-2 {
+  float: right;
+  clear: both;
+  margin: 0 1.5%;
+  width: 48%;
+  height:auto;
+}
+
+.final {
+    height:auto;
+    background-color:#8b1d0e;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+.final p{
+    color:#e1d6d0;
+    font-size:140%;
+    text-align:center;
+}
+
+.final h2{
+    color:#e1d6d0;
+    text-align:center;
+    line-height: 100%;
+    font-size:250%;
+}
 
