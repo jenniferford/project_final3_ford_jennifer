@@ -350,3 +350,9 @@ img {
     font-size:250%;
 }
 
+
+footer ul { list-style-type: none; 
+    text-align:center;
+    padding-bottom: 1em; }
+footer li { display:inline; 
+    padding: 1em; }
