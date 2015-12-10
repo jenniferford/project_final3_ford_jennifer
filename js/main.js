@@ -1,6 +1,8 @@
 $(document).ready(function() {
      $(".flexnav").flexNav();
 
+   
+
 
 		jQuery(document).ready(function($) {
 			$('.my-slider').unslider({
@@ -77,5 +79,12 @@ activeClass: self._ + '-active',
 swipe: true
 });
 });
+
+
+$.backstretch([
+      "images/harryhausens_bg.jpg"
+    , "images/harryhausens_bg_2.jpg"
+  ], {duration: 3000, fade: 750});
+
 
 });
