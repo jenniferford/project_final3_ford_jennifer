@@ -8,6 +8,14 @@ html{
     box-sizing:inherit;
 }
 
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 .site-container{
     max-width: 1200px;
     background-color:#c1bfbf;
@@ -20,6 +28,14 @@ html{
 
 .Site-content {
   flex: 1;
+}
+
+nav {
+    width:100%;
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    text-align: center;
 }
 
 
@@ -246,3 +262,32 @@ footer p{
 		text-align: center;
 		line-height:60px;
 	}
+
+.my-slider img{
+max-height:400px;
+width:auto;
+width:100%;
+
+}
+
+.my-slider {
+    position:relative;
+    overflow:hidden;
+}
+
+iframe,
+object,
+img {
+  max-width: 100%;
+  height: auto;
+}
+.unslider-arrow.prev
+    { position: relative; 
+       color:#ffffff;
+    }
+
+    .unslider-arrow.next
+    { position: relative; 
+       color:#ffffff;
+    }
+

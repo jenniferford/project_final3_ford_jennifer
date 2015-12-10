@@ -10,29 +10,32 @@
     <link rel="stylesheet" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href="css/flexnav.css" rel="stylesheet" type="text/css" / >
+    <link rel="stylesheet" href="css/dist/css/unslider.css">
+    <link rel="stylesheet" href="css/dist/css/unslider-dots.css">
 </head>
-<body class="site">
+<body class="site"><a name="home"></a>
 	<div id="wrapper"class="site-container">
         <div id="header-wrapper" >
 			<header id="header" class="container">
+
+				<div id="main-nav">
+					<div class="menu-button one-page">Menu</div>
+					<nav>
+          <ul data-breakpoint="800" class="flexnav one-page">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#section2" >Location & About</a></li>
+            <li><a href="#section3">Our Menu</a></li>
+            <li><a href="#section4">Specials</a></li>
+            <li><a href="#section5">Contact Us</a></li>
+          </ul>
+        </nav>
+				</div>
 				<div id="logo">
 					<a href="#home">
 					<img src="http://www.jenniferlinford.com/images/HARRYHAUSENStextOnly.png" alt="Harryhausen's Logo">
 					</a>
 				</div>
 
-				<div id="main-nav">
-					<div class="menu-button one-page">Menu</div>
-					<nav>
-          <ul data-breakpoint="800" class="flexnav one-page">
-            <li><a href="#page">Item 1</a></li>
-            <li><a href="#section2">Item 2</a></li>
-            <li><a href="#section3">Item 3</a></li>
-            <li><a href="#section4">Item 4</a></li>
-            <li><a href="#section5">Item 5</a></li>
-          </ul>
-        </nav>
-				</div>
 
 			</header>
 		</div>	
@@ -40,8 +43,8 @@
 		<div id="mainpic">
                 <img src="images/HarryHausensExterior.jpg" alt="Harryhausen's Exterior" />
         </div>
-
-		<main class="site-content">
+<div id="section-2"><div>
+		<main class="site-content"><a name="section2"></a>
 			<h1>Welcome to Harryhausen's! </h1>
 				<div class="content">
 					<h2>Downtown Monstropolis' Favorite Spot for sushi, sake and surprises.</h2>
@@ -56,13 +59,25 @@
 						<button>This is a Button</button>
 					</div>	-->					 
 				</div>
-
-			<div class="food">
+<div id="section-3"><div>
+			<div class="food"><a name="section3"></a>
 			
 				
 				<h1>Our Menu</h1>
 				<div id="app" class="menu_list">
 					<h2>Appetizers</h2>
+				<div class="slider-container">
+					<div class="my-slider">
+						<ul>
+							<li><img src="images/tofu_goo.jpg"></img></li>
+							<li><img src="images/veggie_tempura.jpg"></img></li>
+							<li><img src="images/hotandsoursoup.jpg"></img></li>
+						</ul>
+						<a href="#" class="unslider-arrow prev"></a>
+        				<a href="#" class="unslider-arrow next"></a>
+					</div>
+				</div>
+
 					<div class="menu-items">
 						<h3>Goo-Tofu</h3>
 						<h4>tender slice of goo with tofu garnish</h4>
@@ -74,13 +89,25 @@
 						<h4>$11</h4>
 					</div>
 					<div class="menu-items">
-						<h3>Goo-Tofu</h3>
-						<h4>tender slice of goo with tofu garnish</h4>
-						<h4>$9</h4>
+						<h3>Swill and Sour Soup</h3>
+						<h4>varmint medley in miso broth</h4>
+						<h4>$8</h4>
 					</div>
 				</div>
 				<div id="dinner" class="menu_list">
 					<h2>Entrees</h2>
+
+					<div class="my-slider">
+						<ul>
+							<li><img src="images/sushi2.jpg"></img></li>
+							<li><img src="images/sashimi.jpg"></img></li>
+							<li><img src="images/hamachi.jpg"></img></li>
+							<li><img src="images/Sushi-Dish-03.jpg"></img></li>
+							<li><img src="images/Sushi1.jpg"></img></li>
+							<li><img src="images/maxresdefault.jpg"></img></li>
+						</ul>
+					</div>
+
 					<div class="menu-items">
 						<h3>Spider Roll Sushi</h3>
 						<h4>hairy spiders in a used seaweed wrapper</h4>
@@ -113,6 +140,15 @@
 					</div>
 				<div id="dessert" class="menu_list">
 					<h2>Desserts</h2>
+
+					<div class="my-slider">
+						<ul>
+							<li><img src="images/green-tea-ice-cream.jpg"></img></li>
+							<li><img src="images/blueberry-cobbler.jpg"></img></li>
+							<li><img src="images/mud-pie.jpg"></img></li>
+						</ul>
+					</div>
+
 					<div class="menu-items">
 						<h3>Green Tea Ice Scream</h3>
 						<h4>green tea infused ice scream with a varmint sprig</h4>
@@ -131,6 +167,12 @@
 				</div>
 				<div id="dessert" class="menu_list">
 					<h2>Beverages</h2>
+					<div class="my-slider">
+						<ul>
+							<li><img src="images/sake.jpg"></img></li>
+							<li><img src="images/flaming-sake.jpg"></img></li>
+						</ul>
+					</div>
 					<div class="menu-items">
 						<h3>Sake</h3>
 						<h4>our specially blended rice wine made with fermented mite dust</h4>
@@ -151,12 +193,15 @@
 
 
 			</div>
-
-			<div class="image_links">
+<div id="section-4"><div>
+			<div class="image_links"><a name="section4"></a>
 				<h1>Exciting subhead goes here! </h1>
 				<a href="#home"><img src="http://www.jenniferlinford.com/images/MonstersIncHarryhausensOcto.png"/></a>
 				<a href="#home"><img src="http://www.jenniferlinford.com/images/17e10c68deb5555beb809646e0dbf0b7.jpg"/></a>
 			</div>
+
+<div id="section-5"><div>
+			<a name="section5"></a>
 
 		</main>
 	</div>
@@ -176,7 +221,10 @@
 								
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
+	<script src="js/unslider.js"></script>
     <script src="js/main.js"></script>
+
+
 
 
 

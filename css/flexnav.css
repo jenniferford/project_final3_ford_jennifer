@@ -33,8 +33,8 @@
     padding: .96em;
     z-index: 2;
     overflow: hidden;
-    color: #222222;
-    background: #a6a6a2;
+    color: #ffffff;
+    background: #8b1d0e;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
   .flexnav li ul {
     width: 100%; }
@@ -57,12 +57,13 @@
     top: 0;
     right: 0;
     width: 50px;
-    height: 50px;
+    height: 20px;
     display: inline-block;
     background: #acaca1;
     background: rgba(0, 0, 0, 0.075);
     text-align: center; }
     .flexnav .touch-button:hover {
+      text-decoration: none;
       cursor: pointer; }
     .flexnav .touch-button .navicon {
       position: relative;
@@ -120,8 +121,11 @@
       overflow: visible;
       width: 20%; }
     .flexnav li a {
-      border-left: 1px solid #acaca1;
+      text-decoration: none;
       border-bottom: none; }
+
+      .flexnav li a:hover {
+      color:#b24c1e; }
     .flexnav li > ul {
       position: absolute;
       top: auto;
@@ -165,10 +169,12 @@
     min-height: 50px;
     overflow: visible; }
   .oldie .flexnav li:hover > ul {
+    text-decoration: none;
     display: block;
     width: 100%;
     overflow: visible; }
     .oldie .flexnav li:hover > ul li {
+      text-decoration: none;
       width: 100%;
       float: none; }
   .oldie .flexnav li a {
@@ -200,6 +206,7 @@
       width: 100%;
       overflow: visible; }
   .oldie .flexnav ul li:hover ul {
+    text-decoration: none;
     margin-left: 100%;
     top: 0; }
 .oldie .menu-button {
